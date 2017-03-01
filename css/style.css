@@ -1,0 +1,52 @@
+body{
+    background-color: slategrey !important;
+}
+
+#map{
+    border: 5px #2c3e50 solid;
+    border-radius: 5px;
+    margin-top: 50px;
+    width:800px;
+    height:600px;
+}
+
+.container-forms{
+    display: inline-block;
+    width: 200px;
+    position: relative;
+    top:-250px;
+    margin-left: 20px;
+}
+
+form {
+    width: 300px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #cccccc;
+    float: right;
+    margin-top: -600px;
+
+}
+
+input[type="button"]{
+    display: inline-block;
+    width: auto;
+    height: auto;
+    margin: 0 5px;
+    padding: 6px 15px;
+    color: #ffffff;
+    background: #2c3e50;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    bottom: -27px;
+}
+
+#bikes{
+    display: inline-block;
+}
+
+h3{
+    color:white;
+}

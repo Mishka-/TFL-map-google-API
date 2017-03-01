@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="UTF-8">
+    <title>Transport for London Map</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.0/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.0/react-dom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.6.15/browser.js"></script>
+    <script type="text/babel" src="src/main.js"></script>
+    <script type="text/babel" src="components/dropdown.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyByH0c5bxYDZ48BLQ401BBsm4DppG6QNkQ"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet prefetch" href="//maxcdn.bootstrapcdn.com/bootswatch/3.2.0/sandstone/bootstrap.min.css">
+</head>
+
+<body>
+
+<div class="container">
+    <h3>Test Task</h3>
+    <input id="clearMarkersBtn" type=button value="Clear Markers">
+    <div id="map">
+    </div>
+    <form>
+        <label for="bikeBtn">Enter Number of Bike Points</label>
+        <input type="button" id="bikeBtn" value="Go" />
+        <div id="bikes"></div>
+        <label for="stopBtn">Line number for Stop Points</label>
+        <input type="button" id="stopBtn" value="Go" />
+        <div id="stops"></div>
+    </form>
+    <h4>Transport for London map</h4>
+</div>
+
+</body>
+
+</html>
